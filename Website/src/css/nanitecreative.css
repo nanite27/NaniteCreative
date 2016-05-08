@@ -1,0 +1,89 @@
+#logo {
+    background-image: url('../image/logo.png');
+    width: 230px;
+    height: 140px;
+    background-size: 230px 140px;
+    top: 0px;
+    left: 0px;
+}
+
+#menu {
+    position: absolute;
+    left: 0px;
+    width: 230px;
+    top: 0px;
+    bottom: 0px;
+    text-align: right;
+    list-style-type: none;
+}
+
+#content {
+  position: absolute;
+    left: 240px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#title {
+    right: 10px;
+    top: 0px;
+    left: 230px;
+    bottom: 0px;
+    position: absolute;
+}
+
+#pageTitle {
+    position: absolute;
+    right: 130px;
+    left: 0px;
+    bottom: 25px;
+    text-align: right;
+}
+
+#pageLogo {
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    top: 25px;
+    bottom: 25px;
+}
+
+body {
+    width: 1024px;
+    min-height: 768px;
+    margin: 0px auto;
+}
+
+#layout-top {
+    width: 1024px;
+    height: 150px;
+    position: absolute;
+}
+
+#layout-bottom {
+    width: 1024px;
+    top: 150px;
+    bottom: 0px;
+    position: absolute;
+}
+
+/* unvisited link */
+a {
+    color: #000;
+}
+
+/* visited link */
+a:visited {
+    color: #000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #848484;
+}
+
+/* selected link */
+a:active {
+    color: #000;
+}
